@@ -1,0 +1,23 @@
+{
+    "name": "metalcamp/faker-dubai-provider",
+    "description": "Faker provider that provides Dubai specific data",
+    "keywords": ["faker", "provider", "dubai"],
+    "authors": [
+        {
+            "name": "metalcamp",
+            "email": "metalcamp@users.noreply.github.com"
+        }
+    ],
+    "version": "0.1.0",
+    "type": "library",
+    "require": {
+        "php": "^7.2",
+        "fzaninotto/faker": "^1.8"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Faker\\Provider\\": "src/"
+        }
+    }
+}
